@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Warrior Tyrant"
+monster: "Warrior Tyrant"
 layout: SWN Creature Layout
 ```
 

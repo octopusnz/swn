@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Military Elite"
+monster: "Military Elite"
 layout: SWN Creature Layout
 ```
 

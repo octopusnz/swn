@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Barbarian Hero"
+monster: "Barbarian Hero"
 layout: SWN Creature Layout
 ```
 

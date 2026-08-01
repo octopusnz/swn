@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Military Soldier"
+monster: "Military Soldier"
 layout: SWN Creature Layout
 ```
 

@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Pirate King"
+monster: "Pirate King"
 layout: SWN Creature Layout
 ```
 

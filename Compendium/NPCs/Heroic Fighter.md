@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Heroic Fighter"
+monster: "Heroic Fighter"
 layout: SWN Creature Layout
 ```
 

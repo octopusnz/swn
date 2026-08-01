@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Skilled Professional"
+monster: "Skilled Professional"
 layout: SWN Creature Layout
 ```
 

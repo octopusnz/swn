@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Lesser Lone Predator"
+monster: "Lesser Lone Predator"
 layout: SWN Creature Layout
 ```
 

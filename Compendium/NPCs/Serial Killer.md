@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Serial Killer"
+monster: "Serial Killer"
 layout: SWN Creature Layout
 ```
 

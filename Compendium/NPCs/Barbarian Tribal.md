@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Barbarian Tribal"
+monster: "Barbarian Tribal"
 layout: SWN Creature Layout
 ```
 

@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Heavy Warbot"
+monster: "Heavy Warbot"
 layout: SWN Creature Layout
 ```
 

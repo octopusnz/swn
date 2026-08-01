@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Gang Member"
+monster: "Gang Member"
 layout: SWN Creature Layout
 ```
 

@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Terrifying Apex Predator"
+monster: "Terrifying Apex Predator"
 layout: SWN Creature Layout
 ```
 

@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Police Officer"
+monster: "Police Officer"
 layout: SWN Creature Layout
 ```
 

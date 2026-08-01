@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Large Aggressive Prey Animal"
+monster: "Large Aggressive Prey Animal"
 layout: SWN Creature Layout
 ```
 

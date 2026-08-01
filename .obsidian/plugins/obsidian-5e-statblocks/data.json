@@ -1,414 +1,501 @@
 {
   "monsters": [
-    {
-      "name": "Barbarian Hero",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 11,
-      "skill_bonus": 3,
-      "saves": 12,
-      "attack_bonus": 8,
-      "ac": 16,
-      "hit_dice": "6",
-      "damage": "`d6+3`",
-      "armor_type": "Primitive/Natural"
-    },
-    {
-      "name": "Barbarian Tribal",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 8,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 2,
-      "ac": 12,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Gang Boss",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 9,
-      "skill_bonus": 2,
-      "saves": 14,
-      "attack_bonus": 4,
-      "ac": 14,
-      "hit_dice": "3",
-      "damage": "`d6+1`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Gang Member",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 7,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 1,
-      "ac": 12,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Gengineered Killer",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 15,
-      "morale": 10,
-      "skill_bonus": 2,
-      "saves": 13,
-      "attack_bonus": 5,
-      "ac": 16,
-      "hit_dice": "4",
-      "damage": "`d6+1`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Heroic Fighter",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 11,
-      "skill_bonus": 3,
-      "saves": 12,
-      "attack_bonus": 8,
-      "ac": 16,
-      "hit_dice": "6",
-      "damage": "`d6+3`",
-      "armor_type": "[[Combat Field Uniform\\|Combat Field Uniform]] (AC 16)"
-    },
-    {
-      "name": "Legendary Fighter",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 12,
-      "skill_bonus": 5,
-      "saves": 10,
-      "attack_bonus": 12,
-      "ac": 20,
-      "hit_dice": "10",
-      "attacks": "2",
-      "damage": "`d6+4`",
-      "armor_type": "Powered [[Armor\\|Armor]] (AC 18+)"
-    },
-    {
-      "name": "Martial Human",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 8,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 1,
-      "ac": 10,
-      "hit_dice": "1"
-    },
-    {
-      "name": "Military Elite",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 10,
-      "skill_bonus": 2,
-      "saves": 14,
-      "attack_bonus": 4,
-      "ac": 16,
-      "hit_dice": "3",
-      "damage": "`d6+1`",
-      "armor_type": "[[Combat Field Uniform\\|Combat Field Uniform]] (AC 16)"
-    },
-    {
-      "name": "Military Soldier",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 9,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 1,
-      "ac": 16,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "[[Combat Field Uniform\\|Combat Field Uniform]] (AC 16)"
-    },
-    {
-      "name": "Normal Human",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 6,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 0,
-      "ac": 10,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Peaceful Human",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 6,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 0,
-      "ac": 10,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Pirate King",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 11,
-      "skill_bonus": 3,
-      "saves": 12,
-      "attack_bonus": 9,
-      "ac": 18,
-      "hit_dice": "7",
-      "damage": "`d6+2`",
-      "armor_type": "Powered [[Armor\\|Armor]] (AC 18+)"
-    },
-    {
-      "name": "Police Officer",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 8,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 1,
-      "ac": 14,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Serial Killer (2)",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 12,
-      "skill_bonus": 3,
-      "saves": 12,
-      "attack_bonus": 8,
-      "ac": 12,
-      "hit_dice": "6",
-      "damage": "`d6+3`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Serial Killer",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 12,
-      "skill_bonus": 3,
-      "saves": 12,
-      "attack_bonus": 8,
-      "ac": 12,
-      "hit_dice": "6",
-      "damage": "`d6+3`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Skilled Professional",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 6,
-      "skill_bonus": 2,
-      "saves": 15,
-      "attack_bonus": 0,
-      "ac": 10,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Veteran Fighter",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 9,
-      "skill_bonus": 1,
-      "saves": 14,
-      "attack_bonus": 2,
-      "ac": 14,
-      "hit_dice": "2",
-      "damage": "`d6+1`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Warrior Tyrant",
-      "source": "NPCs",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 11,
-      "skill_bonus": 3,
-      "saves": 11,
-      "attack_bonus": 10,
-      "ac": 20,
-      "hit_dice": "8",
-      "damage": "`d6+3`",
-      "armor_type": "Powered [[Armor\\|Armor]] (AC 18+)"
-    },
-    {
-      "name": "Greater Lone Predator",
-      "source": "Creatures",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 9,
-      "skill_bonus": 2,
-      "saves": 12,
-      "attack_bonus": 6,
-      "ac": 15,
-      "hit_dice": "5",
-      "attacks": "2",
-      "damage": "`d6`",
-      "armor_type": "Primitive/Natural"
-    },
-    {
-      "name": "Large Aggressive Prey Animal",
-      "source": "Creatures",
-      "layout": "SWN Creature Layout",
-      "speed": 15,
-      "morale": 8,
-      "skill_bonus": 1,
-      "saves": 12,
-      "attack_bonus": 4,
-      "ac": 13,
-      "hit_dice": "5",
-      "damage": "`d6`",
-      "armor_type": "Primitive/Natural"
-    },
-    {
-      "name": "Large Pack Hunter",
-      "source": "Creatures",
-      "layout": "SWN Creature Layout",
-      "speed": 15,
-      "morale": 9,
-      "skill_bonus": 1,
-      "saves": 14,
-      "attack_bonus": 2,
-      "ac": 14,
-      "hit_dice": "2",
-      "damage": "`d6`",
-      "armor_type": "Primitive/Natural"
-    },
-    {
-      "name": "Lesser Lone Predator",
-      "source": "Creatures",
-      "layout": "SWN Creature Layout",
-      "speed": 15,
-      "morale": 8,
-      "skill_bonus": 2,
-      "saves": 14,
-      "attack_bonus": 4,
-      "ac": 14,
-      "hit_dice": "3",
-      "attacks": "2",
-      "damage": "`d6`",
-      "armor_type": "Primitive/Natural"
-    },
-    {
-      "name": "Terrifying Apex Predator",
-      "source": "Creatures",
-      "layout": "SWN Creature Layout",
-      "speed": 20,
-      "morale": 9,
-      "skill_bonus": 2,
-      "saves": 11,
-      "attack_bonus": 8,
-      "ac": 16,
-      "hit_dice": "8",
-      "attacks": "2",
-      "damage": "`d6`",
-      "armor_type": "Primitive/Natural"
-    },
-    {
-      "name": "Companion Bot",
-      "source": "Robots",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 6,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 0,
-      "ac": 12,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Heavy Warbot",
-      "source": "Robots",
-      "layout": "SWN Creature Layout",
-      "speed": 15,
-      "morale": 10,
-      "skill_bonus": 2,
-      "saves": 12,
-      "attack_bonus": 8,
-      "ac": 18,
-      "hit_dice": "6",
-      "attacks": "2",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Industrial Work Bot",
-      "source": "Robots",
-      "layout": "SWN Creature Layout",
-      "speed": 5,
-      "morale": 8,
-      "skill_bonus": 1,
-      "saves": 14,
-      "attack_bonus": 0,
-      "ac": 15,
-      "hit_dice": "2",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Repair Bot",
-      "source": "Robots",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 8,
-      "skill_bonus": 1,
-      "saves": 15,
-      "attack_bonus": 0,
-      "ac": 14,
-      "hit_dice": "1",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    },
-    {
-      "name": "Soldier Bot",
-      "source": "Robots",
-      "layout": "SWN Creature Layout",
-      "speed": 10,
-      "morale": 10,
-      "skill_bonus": 1,
-      "saves": 14,
-      "attack_bonus": 1,
-      "ac": 16,
-      "hit_dice": "2",
-      "damage": "`d6`",
-      "armor_type": "Street Clothes (AC 10)"
-    }
+    [
+      "Barbarian Hero",
+      {
+        "name": "Barbarian Hero",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 11,
+        "skill_bonus": 3,
+        "saves": 12,
+        "attack_bonus": 8,
+        "ac": 16,
+        "hit_dice": "6",
+        "damage": "`d6+3`",
+        "armor_type": "Primitive/Natural"
+      }
+    ],
+    [
+      "Barbarian Tribal",
+      {
+        "name": "Barbarian Tribal",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 8,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 2,
+        "ac": 12,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Gang Boss",
+      {
+        "name": "Gang Boss",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 9,
+        "skill_bonus": 2,
+        "saves": 14,
+        "attack_bonus": 4,
+        "ac": 14,
+        "hit_dice": "3",
+        "damage": "`d6+1`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Gang Member",
+      {
+        "name": "Gang Member",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 7,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 1,
+        "ac": 12,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Gengineered Killer",
+      {
+        "name": "Gengineered Killer",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 15,
+        "morale": 10,
+        "skill_bonus": 2,
+        "saves": 13,
+        "attack_bonus": 5,
+        "ac": 16,
+        "hit_dice": "4",
+        "damage": "`d6+1`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Heroic Fighter",
+      {
+        "name": "Heroic Fighter",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 11,
+        "skill_bonus": 3,
+        "saves": 12,
+        "attack_bonus": 8,
+        "ac": 16,
+        "hit_dice": "6",
+        "damage": "`d6+3`",
+        "armor_type": "[[Combat Field Uniform\\|Combat Field Uniform]] (AC 16)"
+      }
+    ],
+    [
+      "Legendary Fighter",
+      {
+        "name": "Legendary Fighter",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 12,
+        "skill_bonus": 5,
+        "saves": 10,
+        "attack_bonus": 12,
+        "ac": 20,
+        "hit_dice": "10",
+        "attacks": "2",
+        "damage": "`d6+4`",
+        "armor_type": "Powered [[Armor\\|Armor]] (AC 18+)"
+      }
+    ],
+    [
+      "Martial Human",
+      {
+        "name": "Martial Human",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 8,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 1,
+        "ac": 10,
+        "hit_dice": "1"
+      }
+    ],
+    [
+      "Military Elite",
+      {
+        "name": "Military Elite",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 10,
+        "skill_bonus": 2,
+        "saves": 14,
+        "attack_bonus": 4,
+        "ac": 16,
+        "hit_dice": "3",
+        "damage": "`d6+1`",
+        "armor_type": "[[Combat Field Uniform\\|Combat Field Uniform]] (AC 16)"
+      }
+    ],
+    [
+      "Military Soldier",
+      {
+        "name": "Military Soldier",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 9,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 1,
+        "ac": 16,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "[[Combat Field Uniform\\|Combat Field Uniform]] (AC 16)"
+      }
+    ],
+    [
+      "Normal Human",
+      {
+        "name": "Normal Human",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 6,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 0,
+        "ac": 10,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Peaceful Human",
+      {
+        "name": "Peaceful Human",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 6,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 0,
+        "ac": 10,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Pirate King",
+      {
+        "name": "Pirate King",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 11,
+        "skill_bonus": 3,
+        "saves": 12,
+        "attack_bonus": 9,
+        "ac": 18,
+        "hit_dice": "7",
+        "damage": "`d6+2`",
+        "armor_type": "Powered [[Armor\\|Armor]] (AC 18+)"
+      }
+    ],
+    [
+      "Police Officer",
+      {
+        "name": "Police Officer",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 8,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 1,
+        "ac": 14,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Serial Killer (2)",
+      {
+        "name": "Serial Killer (2)",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 12,
+        "skill_bonus": 3,
+        "saves": 12,
+        "attack_bonus": 8,
+        "ac": 12,
+        "hit_dice": "6",
+        "damage": "`d6+3`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Serial Killer",
+      {
+        "name": "Serial Killer",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 12,
+        "skill_bonus": 3,
+        "saves": 12,
+        "attack_bonus": 8,
+        "ac": 12,
+        "hit_dice": "6",
+        "damage": "`d6+3`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Skilled Professional",
+      {
+        "name": "Skilled Professional",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 6,
+        "skill_bonus": 2,
+        "saves": 15,
+        "attack_bonus": 0,
+        "ac": 10,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Veteran Fighter",
+      {
+        "name": "Veteran Fighter",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 9,
+        "skill_bonus": 1,
+        "saves": 14,
+        "attack_bonus": 2,
+        "ac": 14,
+        "hit_dice": "2",
+        "damage": "`d6+1`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Warrior Tyrant",
+      {
+        "name": "Warrior Tyrant",
+        "source": "NPCs",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 11,
+        "skill_bonus": 3,
+        "saves": 11,
+        "attack_bonus": 10,
+        "ac": 20,
+        "hit_dice": "8",
+        "damage": "`d6+3`",
+        "armor_type": "Powered [[Armor\\|Armor]] (AC 18+)"
+      }
+    ],
+    [
+      "Greater Lone Predator",
+      {
+        "name": "Greater Lone Predator",
+        "source": "Creatures",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 9,
+        "skill_bonus": 2,
+        "saves": 12,
+        "attack_bonus": 6,
+        "ac": 15,
+        "hit_dice": "5",
+        "attacks": "2",
+        "damage": "`d6`",
+        "armor_type": "Primitive/Natural"
+      }
+    ],
+    [
+      "Large Aggressive Prey Animal",
+      {
+        "name": "Large Aggressive Prey Animal",
+        "source": "Creatures",
+        "layout": "SWN Creature Layout",
+        "speed": 15,
+        "morale": 8,
+        "skill_bonus": 1,
+        "saves": 12,
+        "attack_bonus": 4,
+        "ac": 13,
+        "hit_dice": "5",
+        "damage": "`d6`",
+        "armor_type": "Primitive/Natural"
+      }
+    ],
+    [
+      "Large Pack Hunter",
+      {
+        "name": "Large Pack Hunter",
+        "source": "Creatures",
+        "layout": "SWN Creature Layout",
+        "speed": 15,
+        "morale": 9,
+        "skill_bonus": 1,
+        "saves": 14,
+        "attack_bonus": 2,
+        "ac": 14,
+        "hit_dice": "2",
+        "damage": "`d6`",
+        "armor_type": "Primitive/Natural"
+      }
+    ],
+    [
+      "Lesser Lone Predator",
+      {
+        "name": "Lesser Lone Predator",
+        "source": "Creatures",
+        "layout": "SWN Creature Layout",
+        "speed": 15,
+        "morale": 8,
+        "skill_bonus": 2,
+        "saves": 14,
+        "attack_bonus": 4,
+        "ac": 14,
+        "hit_dice": "3",
+        "attacks": "2",
+        "damage": "`d6`",
+        "armor_type": "Primitive/Natural"
+      }
+    ],
+    [
+      "Terrifying Apex Predator",
+      {
+        "name": "Terrifying Apex Predator",
+        "source": "Creatures",
+        "layout": "SWN Creature Layout",
+        "speed": 20,
+        "morale": 9,
+        "skill_bonus": 2,
+        "saves": 11,
+        "attack_bonus": 8,
+        "ac": 16,
+        "hit_dice": "8",
+        "attacks": "2",
+        "damage": "`d6`",
+        "armor_type": "Primitive/Natural"
+      }
+    ],
+    [
+      "Companion Bot",
+      {
+        "name": "Companion Bot",
+        "source": "Robots",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 6,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 0,
+        "ac": 12,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Heavy Warbot",
+      {
+        "name": "Heavy Warbot",
+        "source": "Robots",
+        "layout": "SWN Creature Layout",
+        "speed": 15,
+        "morale": 10,
+        "skill_bonus": 2,
+        "saves": 12,
+        "attack_bonus": 8,
+        "ac": 18,
+        "hit_dice": "6",
+        "attacks": "2",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Industrial Work Bot",
+      {
+        "name": "Industrial Work Bot",
+        "source": "Robots",
+        "layout": "SWN Creature Layout",
+        "speed": 5,
+        "morale": 8,
+        "skill_bonus": 1,
+        "saves": 14,
+        "attack_bonus": 0,
+        "ac": 15,
+        "hit_dice": "2",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Repair Bot",
+      {
+        "name": "Repair Bot",
+        "source": "Robots",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 8,
+        "skill_bonus": 1,
+        "saves": 15,
+        "attack_bonus": 0,
+        "ac": 14,
+        "hit_dice": "1",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ],
+    [
+      "Soldier Bot",
+      {
+        "name": "Soldier Bot",
+        "source": "Robots",
+        "layout": "SWN Creature Layout",
+        "speed": 10,
+        "morale": 10,
+        "skill_bonus": 1,
+        "saves": 14,
+        "attack_bonus": 1,
+        "ac": 16,
+        "hit_dice": "2",
+        "damage": "`d6`",
+        "armor_type": "Street Clothes (AC 10)"
+      }
+    ]
   ],
   "defaultLayouts": {},
   "layouts": [
@@ -564,9 +651,9 @@
   "export": true,
   "showAdvanced": false,
   "version": {
-    "major": null,
-    "minor": null,
-    "patch": null
+    "major": 4,
+    "minor": 10,
+    "patch": 3
   },
   "paths": [
     "/"

@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Companion Bot"
+monster: "Companion Bot"
 layout: SWN Creature Layout
 ```
 

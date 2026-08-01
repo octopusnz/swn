@@ -13,7 +13,7 @@ tags:
 ---
 
 ```statblock
-name: "Martial Human"
+monster: "Martial Human"
 layout: SWN Creature Layout
 ```
 

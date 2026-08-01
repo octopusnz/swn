@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Large Pack Hunter"
+monster: "Large Pack Hunter"
 layout: SWN Creature Layout
 ```
 

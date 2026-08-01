@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Repair Bot"
+monster: "Repair Bot"
 layout: SWN Creature Layout
 ```
 

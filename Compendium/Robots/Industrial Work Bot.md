@@ -15,7 +15,7 @@ tags:
 ---
 
 ```statblock
-name: "Industrial Work Bot"
+monster: "Industrial Work Bot"
 layout: SWN Creature Layout
 ```
 
