@@ -80,6 +80,161 @@
   color: var(--text-faint);
 }
 
+/* Two-column dashboard layout: campaign data on the left, rules compendium
+   tucked into a side panel on the right so it doesn't compete for attention. */
+.swn-dashboard-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 1.5em;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .swn-dashboard-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.swn-dashboard-side {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 1em;
+  position: sticky;
+  top: 1em;
+}
+
+.swn-section-title {
+  font-family: var(--font-monospace, monospace);
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-accent);
+  border-left: 3px solid var(--text-accent);
+  padding-left: 0.5em;
+  margin: 1.6em 0 0.6em 0;
+}
+
+.swn-section-title:first-child {
+  margin-top: 0;
+}
+
+.swn-side-title {
+  font-family: var(--font-monospace, monospace);
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.3em;
+  margin: 1.4em 0 0.6em 0;
+}
+
+.swn-side-title:first-child {
+  margin-top: 0;
+}
+
+.swn-side-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+}
+
+.swn-side-card {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 0.5em 0.6em;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+.swn-side-card:hover {
+  border-color: var(--text-accent);
+}
+
+.swn-side-card .swn-card-count {
+  font-size: 1.2em;
+}
+
+/* Campaign map tree: systems containing worlds/ships containing NPCs */
+.swn-map-system {
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--text-accent);
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  margin-bottom: 0.8em;
+}
+
+.swn-map-system-title {
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-bottom: 0.3em;
+}
+
+.swn-map-branch-label {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+  margin: 0.6em 0 0.2em 0.5em;
+}
+
+.swn-map-node {
+  margin: 0.15em 0 0.15em 1em;
+  padding-left: 0.6em;
+  border-left: 2px solid var(--background-modifier-border);
+}
+
+.swn-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  margin: 0.3em 0 0.3em 1.5em;
+}
+
+.swn-chip {
+  font-size: 0.75em;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 3px;
+  padding: 0.1em 0.5em;
+}
+
+/* Faction roster */
+.swn-faction-card {
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--text-accent);
+  border-radius: 4px;
+  padding: 0.7em 1em;
+  margin-bottom: 0.6em;
+}
+
+.swn-faction-name {
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+
+/* Open threads (Hooks & Secrets aggregated across campaign pages) */
+.swn-thread-row {
+  display: flex;
+  gap: 0.6em;
+  padding: 0.5em 0.9em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  align-items: baseline;
+}
+
+.swn-thread-row:last-child {
+  border-bottom: none;
+}
+
+.swn-thread-source {
+  font-family: var(--font-monospace, monospace);
+  font-size: 0.75em;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
 /* Stat-block tables (NPC/weapon/ship entries etc.) get a terminal-readout look */
 .markdown-rendered table {
   font-family: var(--font-monospace, monospace);
