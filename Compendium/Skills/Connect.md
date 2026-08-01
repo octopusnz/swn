@@ -1,0 +1,9 @@
+---
+type: Skill
+source: "Revised"
+tags: [skill, SWN]
+---
+
+# Connect
+
+Find people who can be helpful to your purposes and get them to cooperate with you. Roll it to make useful connections with others, find people you [[Know|know]], [[Know|know]] where to get illicit goods and services, and be familiar with foreign cultures and languages. You can use it in place of [[Talk|Talk]] for persuading people you find via this skill.

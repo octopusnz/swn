@@ -1,0 +1,15 @@
+/* Overrides ITS Theme's default red/cream accent palette with a cyan sci-fi
+   HUD scheme, for the SWN campaign vault. Loads after theme.css, so these
+   values win over ITS Theme's own .theme-dark block without needing extra
+   specificity. Adjust here (not in Style Settings) to keep the override
+   in one place. */
+
+.theme-dark {
+  --deep-dark-accent: #06212b;
+  --dark-accent: #0b3d4c;
+  --lite-accent: #35c3e6;
+  --accent: #0f7c9e;
+  --accent2: #1b4b63;
+  --accent2-lite: #38bdf8;
+  --accent-color: 15, 124, 158;
+}

@@ -1,0 +1,9 @@
+---
+type: Skill
+source: "Revised"
+tags: [skill, SWN]
+---
+
+# Administer
+
+Manage an organization, handle paperwork, analyze records, and keep an institution functioning on a daily basis. Roll it for bureaucratic expertise, organizational management, legal knowledge, dealing with government agencies, and understanding how institutions really [[Work|work]].

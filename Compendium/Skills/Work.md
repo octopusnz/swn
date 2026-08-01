@@ -1,0 +1,9 @@
+---
+type: Skill
+source: "Revised"
+tags: [skill, SWN]
+---
+
+# Work
+
+This is a catch-all skill for professions not represented by other [[Skills|skills]]. Roll it to work at a particular profession, art, or [[Trade|trade]]

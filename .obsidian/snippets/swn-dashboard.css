@@ -1,0 +1,105 @@
+/* Dashboard cards + stat blocks for the SWN campaign vault. Works with the Cybertron theme. */
+
+.swn-total-stat {
+  font-family: var(--font-monospace, monospace);
+  font-size: 1.4em;
+  letter-spacing: 0.03em;
+  color: var(--text-accent);
+  border-left: 3px solid var(--text-accent);
+  padding: 0.3em 0.8em;
+  margin: 0.5em 0 1em 0;
+  text-transform: uppercase;
+}
+
+.swn-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75em;
+  margin: 1em 0;
+}
+
+.swn-dashboard-card {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--text-accent);
+  border-radius: 4px;
+  padding: 0.9em 1em;
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+.swn-dashboard-card:hover {
+  border-color: var(--text-accent);
+  box-shadow: 0 0 0 1px var(--text-accent), 0 0 12px -2px var(--text-accent);
+  transform: translateY(-2px);
+}
+
+.swn-card-count {
+  font-family: var(--font-monospace, monospace);
+  font-size: 1.8em;
+  font-weight: 700;
+  color: var(--text-accent);
+  line-height: 1.1;
+}
+
+.swn-card-label {
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-top: 0.2em;
+}
+
+.swn-recent-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.swn-recent-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0.9em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.swn-recent-row:last-child {
+  border-bottom: none;
+}
+
+.swn-recent-row:hover {
+  background: var(--background-secondary);
+}
+
+.swn-recent-date {
+  font-family: var(--font-monospace, monospace);
+  font-size: 0.8em;
+  color: var(--text-faint);
+}
+
+/* Stat-block tables (NPC/weapon/ship entries etc.) get a terminal-readout look */
+.markdown-rendered table {
+  font-family: var(--font-monospace, monospace);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown-rendered table th {
+  color: var(--text-accent);
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--text-accent);
+}
+
+.markdown-rendered table td,
+.markdown-rendered table th {
+  padding: 0.4em 0.8em;
+}
+
+.markdown-rendered table tr:nth-child(even) {
+  background: var(--background-secondary);
+}

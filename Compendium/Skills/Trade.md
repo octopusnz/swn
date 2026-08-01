@@ -1,0 +1,9 @@
+---
+type: Skill
+source: "Revised"
+tags: [skill, SWN]
+---
+
+# Trade
+
+Find what you need on the market and sell what you have. Roll it to sell or buy things, figure out where to purchase hard-to-get or illicit goods, deal with customs agents, or run a business.
