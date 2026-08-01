@@ -18,3 +18,17 @@ Dark Star Adventures:
 <https://dark-star-adventures.itch.io/stars-without-number-markdown-files>
 
 The compendium markdown files in this repository have been modified to suit the UI and plugins being used and changes made to the tagging, properties and in some cases statistics. You can download a clean version from the above link that will allow you to customise for your own game and project needs.
+
+## Obsidian plugins and theme
+
+This vault's UI is built on the following third-party Obsidian plugins and theme, bundled in `.obsidian/` for portability. All are used unmodified except where noted. Each one's license file is included alongside its code in this repo (linked below).
+
+| Name | Author | License | Source | License file in this repo |
+| --- | --- | --- | --- | --- |
+| Dataview | Michael Brenan (blacksmithgu) | MIT | <https://github.com/blacksmithgu/obsidian-dataview> | [LICENSE.txt](.obsidian/plugins/dataview/LICENSE.txt) |
+| Style Settings | mgmeyers, maintained by the Obsidian community | GPL-3.0 | <https://github.com/community-archive/obsidian-style-settings> | [LICENSE.md](.obsidian/plugins/obsidian-style-settings/LICENSE.md) |
+| Iconize | Florian Woelki | MIT | <https://github.com/FlorianWoelki/obsidian-iconize> | [LICENSE](.obsidian/plugins/obsidian-icon-folder/LICENSE) |
+| Fantasy Statblocks | Jeremy Valentine, obsidian-ttrpg-community | MIT | <https://github.com/obsidian-ttrpg-community/fantasy-statblocks> | [LICENSE](.obsidian/plugins/obsidian-5e-statblocks/LICENSE) |
+| ITS Theme | SlRvb | GPL-2.0 | <https://github.com/SlRvb/Obsidian--ITS-Theme> | [LICENSE](.obsidian/themes/ITS%20Theme/LICENSE) |
+
+Note on Fantasy Statblocks: the NPC/Creature/Robot entries in this vault use a custom "SWN Creature Layout" (in `.obsidian/plugins/obsidian-5e-statblocks/data.json`) written specifically for this vault's stat fields — it is not part of the upstream plugin.
