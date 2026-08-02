@@ -28,6 +28,18 @@ const worlds = dv.pages('"Worlds"');
 const npcs = dv.pages('"NPCs"');
 const ships = dv.pages('"Ships"');
 
+// ---------------------------------------------------------------------
+// BANNER: Campaign hero image
+// ---------------------------------------------------------------------
+const bannerFile = app.vault.getAbstractFileByPath("galaxy.png");
+if (bannerFile) {
+  const banner = dv.container.createEl("div", { cls: "swn-dashboard-banner" });
+  banner.createEl("img", {
+    cls: "swn-dashboard-banner-img",
+    attr: { src: app.vault.getResourcePath(bannerFile), alt: "" },
+  });
+}
+
 const root = dv.container.createEl("div", { cls: "swn-dashboard-layout" });
 const main = root.createEl("div", { cls: "swn-dashboard-main" });
 const side = root.createEl("div", { cls: "swn-dashboard-side" });

@@ -1,15 +1,121 @@
-/* Overrides ITS Theme's default red/cream accent palette with a cyan sci-fi
-   HUD scheme, for the SWN campaign vault. Loads after theme.css, so these
-   values win over ITS Theme's own .theme-dark block without needing extra
-   specificity. Adjust here (not in Style Settings) to keep the override
-   in one place. */
+/* Cyan HUD Terminal palette for the SWN campaign vault, replacing ITS Theme's
+   default red/cream branding.
+
+   ITS Theme hardcodes its red identity across ~20 custom properties, not just
+   the 7 --accent* ones (that was the bug: an earlier version of this snippet
+   only touched those 7, so headings, inline code, tags, folder-open icons,
+   hover highlights and the graph view all stayed red). The theme's own
+   built-in "accent-color" flavor (theme.css, Style Settings id "accent-color")
+   proves this same variable set is sufficient to re-skin the whole UI, so this
+   snippet mirrors that set with fixed hex values instead of the theme's
+   hsl(--accent-h) formulas, for full deterministic control without depending
+   on the Style Settings plugin being configured.
+
+   Loads after theme.css, so equal-specificity `.theme-dark` / `.theme-light`
+   selectors here win in the cascade without needing extra specificity or
+   !important. Keep all palette + font decisions in this one file. */
 
 .theme-dark {
-  --deep-dark-accent: #06212b;
+  /* Backgrounds: near-black navy, deepened from ITS Theme's neutral default */
+  --outer-bar: #06090e;
+  --dark-sidebar: #080c12;
+  --note: #0a0e14;
+  --bg: #0f1620;
+  --table: #101826;
+  --code-bg: #0d1420;
+  --aside-bg: #0a0f16;
+  --hr: #1c2733;
+  --lines: var(--hr);
+
+  /* Text */
+  --text: #c9d6e3;
+  --soft-text: #8fa3b8;
+  --faint-text: #52697d;
+  --footnote: #6d8394;
+
+  /* Accent family (the theme's own re-skinning variable set) */
+  --deep-dark-accent: #062028;
   --dark-accent: #0b3d4c;
-  --lite-accent: #35c3e6;
+  --lite-accent: #38bdf8;
   --accent: #0f7c9e;
   --accent2: #1b4b63;
-  --accent2-lite: #38bdf8;
-  --accent-color: 15, 124, 158;
+  --accent2-lite: #22d3ee;
+  --accent-color: 34, 211, 238;
+
+  /* Headings, code, tags, folders, hovers — previously hardcoded red */
+  --headers: #38bdf8;
+  --code-text: #2dd4bf;
+  --tag-text: #38bdf8;
+  --folder-open: #5eead4;
+  --i-at: #5eead4;
+  --highlight: rgba(56, 189, 248, 0.22);
+  --hvr: rgba(56, 189, 248, 0.18);
+  --hvr2: var(--highlight);
+  --hvr-active: rgba(34, 211, 238, 0.28);
+
+  /* Nested-list / heading-level indicator colors */
+  --theme-rainbow-1: #22d3ee;
+  --theme-rainbow-2: #0fb8d4;
+  --theme-rainbow-3: #0f7c9e;
+  --theme-rainbow-4: #0b3d4c;
+  --theme-rainbow-5: #062028;
+  --theme-rainbow-6: #041318;
+}
+
+.theme-light {
+  --outer-bar: #eef6fb;
+  --dark-sidebar: #e4f0f7;
+  --note: #f7fbfd;
+  --bg: #eaf4f9;
+  --table: #e4f0f7;
+  --code-bg: #e4f0f7;
+  --hr: #cfe3ec;
+  --lines: var(--hr);
+
+  --deep-dark-accent: #cdeefb;
+  --dark-accent: #7fd4ef;
+  --lite-accent: #0891b2;
+  --accent: #0e7490;
+  --accent2: #94d8ec;
+  --accent2-lite: #0e7490;
+  --accent-color: 14, 116, 144;
+
+  --headers: #0e7490;
+  --code-text: #0f766e;
+  --tag-text: #0e7490;
+  --folder-open: #0f766e;
+  --i-at: #0f766e;
+  --highlight: rgba(14, 116, 144, 0.18);
+  --hvr: rgba(14, 116, 144, 0.12);
+  --hvr2: var(--highlight);
+  --hvr-active: rgba(8, 145, 178, 0.22);
+}
+
+/* Font pairing: clean sans for prose, monospace reserved for stat blocks and
+   data tables (see swn-dashboard.css) — locked in regardless of any ITS
+   Theme flavor class, since none is currently configured via Style Settings. */
+.theme-dark,
+.theme-light {
+  --font-default: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-monospace: "Fira Code", "JetBrains Mono", "Source Code Pro", monospace;
+}
+
+/* Give real markdown headings the same HUD treatment as the dashboard's
+   JS-built section titles, so every note in the vault reads as one system. */
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.markdown-rendered h1 {
+  border-bottom: 2px solid var(--text-accent);
+  padding-bottom: 0.2em;
+}
+
+.markdown-rendered h2 {
+  border-left: 3px solid var(--text-accent);
+  padding-left: 0.5em;
 }
