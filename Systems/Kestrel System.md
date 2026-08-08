@@ -3,6 +3,7 @@ type: system
 name: Kestrel
 sector: Hydra Sector
 coordinates: "0507"
+image: "Images/kestrelsystem.jpg"
 stars:
   - Kestrel Primary (G2V)
   - Kestrel B (M4V red dwarf)
@@ -26,6 +27,8 @@ status: active
 ---
 
 # Kestrel System
+
+![[Images/kestrelsystem.jpg]]
 
 ## Overview
 

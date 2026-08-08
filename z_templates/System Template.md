@@ -3,6 +3,7 @@ type: system
 name:
 sector:
 coordinates:            # e.g. 0405 or hex number
+image:                  # optional path to portrait, e.g. Images/name.jpg
 stars: []               # list of stars (Primary, Companion, etc.)
 planets: []             # list of primary worlds / major bodies
 stations: []
@@ -12,6 +13,8 @@ status: active
 ---
 
 # {{title}}
+
+<!-- Once a portrait exists: set `image:` above and add `![[Images/name.jpg]]` here -->
 
 ## Overview
 

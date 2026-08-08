@@ -5,6 +5,7 @@ hull_type: "[[Free Merchant]]"
 owner_faction: "Kestrel Free Traders Association"
 captain: "Dessa Vray"
 current_location: "[[Kestrel System]]"
+image: "Images/kestreldrift.jpg"
 tags:
   - free trader
   - neutral
@@ -12,6 +13,8 @@ status: active
 ---
 
 # Kestrel Drift
+
+![[Images/kestreldrift.jpg]]
 
 ## Overview
 
