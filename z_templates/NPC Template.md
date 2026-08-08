@@ -6,11 +6,14 @@ location_type:           # world | ship
 location:                # e.g. [[World Name]] or [[Ship Name]]
 faction:                  # e.g. [[Faction Name]]
 statblock:                # optional link to a Compendium/NPCs archetype, e.g. [[Gang Boss]]
+image:                    # optional path to portrait, e.g. Images/name.jpg
 tags: []
 status: active
 ---
 
 # {{title}}
+
+<!-- Once a portrait exists: set `image:` above and add `![[Images/name.jpg]]` here -->
 
 ## Overview
 

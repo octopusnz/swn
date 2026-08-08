@@ -6,6 +6,7 @@ location_type: ship
 location: "[[Nightshade Vow]]"
 faction: "Red Veil Cartel"
 statblock: "[[Gang Boss]]"
+image: "Images/vashtikael.jpg"
 tags:
   - smuggler
   - cartel
@@ -13,6 +14,8 @@ status: active
 ---
 
 # Captain Vashti Kael
+
+![[Images/vashtikael.jpg]]
 
 ## Overview
 

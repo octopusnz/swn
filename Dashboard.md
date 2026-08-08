@@ -31,7 +31,7 @@ const ships = dv.pages('"Ships"');
 // ---------------------------------------------------------------------
 // BANNER: Campaign hero image
 // ---------------------------------------------------------------------
-const bannerFile = app.vault.getAbstractFileByPath("galaxy.png");
+const bannerFile = app.vault.getAbstractFileByPath("Images/galaxy.png");
 if (bannerFile) {
   const banner = dv.container.createEl("div", { cls: "swn-dashboard-banner" });
   banner.createEl("img", {
