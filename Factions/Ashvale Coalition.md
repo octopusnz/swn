@@ -55,6 +55,7 @@ A breakaway warlord alliance holding the Ashvale highlands of Kestrel II, built 
 
 - Ashvale Hold (fortified seat of power, built into a Mandate-era bunker)
 - The Ashvale highlands continent, contested at the edges
+- [[Ashvale's Answer]] — a captured Council gravtank, the Coalition's single most feared asset on the ground
 
 ## Relationships & Rivals
 

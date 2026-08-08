@@ -58,6 +58,7 @@ Smugglers exploiting the Kestrel II civil war to move weapons and spike drive co
 ## Relationships & Rivals
 
 - Runs weapons to [[Warlord Rurik Ashvale]] and the [[Ashvale Coalition]], though Kael would sell to the [[Kestrel Corporate Council]] just as readily for the right price
+- The Cartel's only reliable source of spare parts and ammunition for [[Ashvale's Answer]], the Coalition's captured Council gravtank
 - Stole the [[Nightshade Vow]] from the [[Mandate Remnant Surveyors]], who now have a bounty out on Kael
 
 ## Hooks & Secrets
