@@ -1,7 +1,7 @@
 ---
 type: system
 name:
-sector:
+sector:                 # e.g. [[Sector Name]]
 coordinates:            # e.g. 0405 or hex number
 image:                  # optional path to portrait, e.g. Images/name.jpg
 stars: []               # list of stars (Primary, Companion, etc.)

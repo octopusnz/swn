@@ -4,7 +4,7 @@ name: Captain Vashti Kael
 role: Red Veil Cartel Smuggler Captain
 location_type: ship
 location: "[[Nightshade Vow]]"
-faction: "Red Veil Cartel"
+faction: "[[Red Veil Cartel]]"
 statblock: "[[Gang Boss]]"
 image: "Images/vashtikael.jpg"
 tags:

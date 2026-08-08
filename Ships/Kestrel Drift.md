@@ -2,7 +2,7 @@
 type: ship
 name: Kestrel Drift
 hull_type: "[[Free Merchant]]"
-owner_faction: "Kestrel Free Traders Association"
+owner_faction: "[[Kestrel Free Traders Association]]"
 captain: "Dessa Vray"
 current_location: "[[Kestrel System]]"
 image: "Images/kestreldrift.jpg"

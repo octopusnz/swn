@@ -2,7 +2,7 @@
 type: ship
 name: Pale Cartographer
 hull_type: "[[Free Merchant]]"
-owner_faction: "Mandate Remnant Surveyors"
+owner_faction: "[[Mandate Remnant Surveyors]]"
 captain: "Archivist Renn Toll"
 current_location: "[[Kestrel System]]"
 tags:

@@ -4,7 +4,7 @@ name: Governor Lian Osk
 role: Kestrel Corporate Council Administrator
 location_type: world
 location: "[[Kestrel II]]"
-faction: "Kestrel Corporate Council"
+faction: "[[Kestrel Corporate Council]]"
 statblock: "[[Normal Human]]"
 image: "Images/lianosk.jpg"
 tags:

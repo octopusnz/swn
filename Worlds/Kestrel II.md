@@ -52,10 +52,10 @@ The primary world of the Kestrel System and the reason the system matters at all
 
 ## Factions & Notable NPCs
 
-- **Kestrel Corporate Council** — nominal planetary government, losing ground; based in New Kestrel City
-- **Ashvale Coalition** — warlord alliance seeking independence from Council rule; based in Ashvale Hold
-- **Kestrel Free Traders Association** — neutral merchant guild trying to keep Port Kestrel open to both sides
-- **Red Veil Cartel** — smugglers exploiting the chaos to move contraband and weapons
+- **[[Kestrel Corporate Council]]** — nominal planetary government, losing ground; based in New Kestrel City
+- **[[Ashvale Coalition]]** — warlord alliance seeking independence from Council rule; based in Ashvale Hold
+- **[[Kestrel Free Traders Association]]** — neutral merchant guild trying to keep Port Kestrel open to both sides
+- **[[Red Veil Cartel]]** — smugglers exploiting the chaos to move contraband and weapons
 - [[Governor Lian Osk]] — Council administrator, increasingly desperate to broker outside intervention
 - [[Warlord Rurik Ashvale]] — Coalition leader, former Council militia commander
 

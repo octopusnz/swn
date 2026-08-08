@@ -1,0 +1,51 @@
+---
+type: sector
+name: Hydra Sector
+grid_size: 8x10
+image:
+systems:
+  - "[[Kestrel System]]"
+polities: []
+bordering_sectors: []
+tech_baseline: TL4 worlds, TL5 shipping
+psionics:
+tags:
+  - Frontier
+  - Post-Mandate Silence
+status: active
+---
+
+# Hydra Sector
+
+## Overview
+
+A frontier sector on the ragged edge of settled space, cut off from Old Earth like every other fragment of the Mandate's fallen web. Most of what's currently mapped clusters around Kestrel System, a busy trade crossroads at the junction of three jump routes. The rest of the sector remains unexplored from the party's perspective.
+
+## Sector Map
+
+| System   | Coordinates | Primary World  | Tags                                 | Link                |
+| -------- | ----------- | -------------- | ------------------------------------- | -------------------- |
+| Kestrel  | 0507        | [[Kestrel II]] | Trade Hub, Frontier, Pirate Activity   | [[Kestrel System]]   |
+
+## Polities & Governments
+
+- No faction currently holds territory beyond a single system — the [[Kestrel Corporate Council]] and [[Ashvale Coalition]] are both confined to contesting Kestrel II itself, not yet a sector-spanning polity
+- [[Red Veil Cartel]], [[Kestrel Free Traders Association]], and the [[Mandate Remnant Surveyors]] all operate across system lines but hold no fixed territory in the sector
+
+## Trade Routes & Jump Lanes
+
+- [[Ashen Gate]] — 6 days from Kestrel, unexplored beyond the jump point
+- [[Vesper Reach]] — 4 days from Kestrel; the route has reportedly become unreliable
+- [[Red Talon]] — 9 days from Kestrel, unexplored beyond the jump point
+
+## Frontier & Unknowns
+
+- Most of the sector outside Kestrel's immediate neighborhood is still unmapped
+- No confirmed border jump routes into neighboring sectors yet
+
+## Hooks & Secrets
+
+- Vesper Reach's growing unreliability could be more than bad luck
+- Nothing beyond Ashen Gate or Red Talon has been explored by anyone currently in Kestrel
+
+## GM Notes

@@ -4,7 +4,7 @@ name: Warlord Rurik Ashvale
 role: Leader of the Ashvale Coalition
 location_type: world
 location: "[[Kestrel II]]"
-faction: "Ashvale Coalition"
+faction: "[[Ashvale Coalition]]"
 statblock: "[[Warrior Tyrant]]"
 image: "Images/rurikashvale.jpg"
 tags:

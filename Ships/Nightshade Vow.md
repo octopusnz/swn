@@ -2,7 +2,7 @@
 type: ship
 name: Nightshade Vow
 hull_type: "[[Corvette]]"
-owner_faction: "Red Veil Cartel"
+owner_faction: "[[Red Veil Cartel]]"
 captain: "[[Captain Vashti Kael]]"
 current_location: "[[Kestrel System]]"
 tags:

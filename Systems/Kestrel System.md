@@ -1,7 +1,7 @@
 ---
 type: system
 name: Kestrel
-sector: Hydra Sector
+sector: "[[Hydra Sector]]"
 coordinates: "0507"
 image: "Images/kestrelsystem.jpg"
 stars:
@@ -43,12 +43,12 @@ A busy frontier system on the edge of settled space. Kestrel serves as a natural
 
 ## Planetary Bodies
 
-| Body               | Type          | Primary? | Notes                      |
-| ------------------ | ------------- | -------- | -------------------------- |
-| [[Kestrel II]]     | Terrestrial   | Yes      | Trade Hub, Civil War       |
-| Kestrel III        | Gas giant     | No       | Large ring system          |
-| Kestrel IV         | Ice world     | No       | Abandoned research outpost |
-| The Shattered Belt | Asteroid belt | No       | Mining + pirate activity   |
+| Body                   | Type          | Primary? | Notes                      |
+| ---------------------- | ------------- | -------- | -------------------------- |
+| [[Kestrel II]]         | Terrestrial   | Yes      | Trade Hub, Civil War       |
+| [[Kestrel III]]        | Gas giant     | No       | Large ring system          |
+| [[Kestrel IV]]         | Ice world     | No       | Abandoned research outpost |
+| [[The Shattered Belt]] | Asteroid belt | No       | Mining + pirate activity   |
 
 ## Space Stations
 
@@ -63,9 +63,9 @@ A busy frontier system on the edge of settled space. Kestrel serves as a natural
 
 ## Factions Present
 
-- Kestrel Free Traders Association
-- Red Veil Cartel
-- Mandate Remnant Surveyors
+- [[Kestrel Free Traders Association]]
+- [[Red Veil Cartel]]
+- [[Mandate Remnant Surveyors]]
 
 ## Hooks & Secrets
 

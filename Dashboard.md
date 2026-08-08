@@ -27,6 +27,9 @@ const systems = dv.pages('"Systems"');
 const worlds = dv.pages('"Worlds"');
 const npcs = dv.pages('"NPCs"');
 const ships = dv.pages('"Ships"');
+const factions = dv.pages('"Factions"');
+const sectors = dv.pages('"Sectors"');
+const vehicles = dv.pages('"Vehicles"');
 
 // ---------------------------------------------------------------------
 // BANNER: Campaign hero image
@@ -50,10 +53,13 @@ const side = root.createEl("div", { cls: "swn-dashboard-side" });
 main.createEl("div", { cls: "swn-section-title", text: "Campaign Overview" });
 const overviewGrid = main.createEl("div", { cls: "swn-dashboard-grid" });
 for (const [label, count, folder] of [
+  ["Sectors", sectors.length, "Sectors"],
   ["Systems", systems.length, "Systems"],
   ["Worlds", worlds.length, "Worlds"],
   ["NPCs", npcs.length, "NPCs"],
   ["Ships", ships.length, "Ships"],
+  ["Vehicles", vehicles.length, "Vehicles"],
+  ["Factions", factions.length, "Factions"],
 ]) {
   const card = overviewGrid.createEl("div", { cls: "swn-dashboard-card" });
   card.createEl("div", { cls: "swn-card-count", text: String(count) });
@@ -114,8 +120,10 @@ for (const sys of systems) {
 
 // Flag entries that aren't linked into the map yet, so nothing gets lost
 const unlinked = [
+  ...systems.where((s) => !linkPath(s.sector)).map((s) => [s, "missing sector"]),
   ...worlds.where((w) => !linkPath(w.system)).map((w) => [w, "missing system"]),
   ...ships.where((s) => !linkPath(s.current_location)).map((s) => [s, "missing current_location"]),
+  ...vehicles.where((v) => !linkPath(v.current_location)).map((v) => [v, "missing current_location"]),
   ...npcs.where((n) => !linkPath(n.location)).map((n) => [n, "missing location"]),
 ];
 if (unlinked.length) {
@@ -132,24 +140,27 @@ if (unlinked.length) {
 // MAIN: Factions
 // ---------------------------------------------------------------------
 main.createEl("div", { cls: "swn-section-title", text: "Factions" });
-const factionMap = new Map();
-const addToFaction = (fac, page) => {
-  if (!fac) return;
-  const name = typeof fac === "string" ? fac : linkName(fac) || String(fac);
-  if (!factionMap.has(name)) factionMap.set(name, []);
-  factionMap.get(name).push(page);
-};
-for (const n of npcs) addToFaction(n.faction, n);
-for (const s of ships) addToFaction(s.owner_faction, s);
-
-if (factionMap.size === 0) {
+if (factions.length === 0) {
   main.createEl("div", { cls: "swn-card-label", text: "No factions recorded yet." });
 } else {
-  for (const [name, members] of [...factionMap.entries()].sort((a, b) => b[1].length - a[1].length)) {
+  for (const fac of factions.sort((f) => f.file.name)) {
     const card = main.createEl("div", { cls: "swn-faction-card" });
-    card.createEl("div", { cls: "swn-faction-name", text: name });
-    const chipRow = card.createEl("div", { cls: "swn-chip-row" });
-    for (const m of members) internalLink(chipRow, m.file.name, m.file.path, "internal-link swn-chip");
+    const nameRow = card.createEl("div", { cls: "swn-faction-name" });
+    internalLink(nameRow, fac.file.name, fac.file.path);
+
+    if (fac.tags && fac.tags.length) {
+      const chipRow = card.createEl("div", { cls: "swn-chip-row" });
+      for (const t of fac.tags) chipRow.createEl("span", { cls: "swn-chip", text: t });
+    }
+
+    const members = [
+      ...npcs.where((n) => linkPath(n.faction) === fac.file.path),
+      ...ships.where((s) => linkPath(s.owner_faction) === fac.file.path),
+    ];
+    if (members.length) {
+      const memberRow = card.createEl("div", { cls: "swn-chip-row" });
+      for (const m of members) internalLink(memberRow, m.file.name, m.file.path, "internal-link swn-chip");
+    }
   }
 }
 
@@ -158,7 +169,7 @@ if (factionMap.size === 0) {
 // ---------------------------------------------------------------------
 main.createEl("div", { cls: "swn-section-title", text: "Open Threads" });
 const threadRows = [];
-for (const p of [...systems, ...worlds, ...npcs, ...ships]) {
+for (const p of [...sectors, ...systems, ...worlds, ...npcs, ...ships, ...vehicles, ...factions]) {
   const items = p.file.lists.where((l) => l.section?.subpath === "Hooks & Secrets" && l.text?.trim().length);
   for (const item of items) threadRows.push({ page: p, text: item.text });
 }
@@ -178,7 +189,7 @@ if (threadRows.length === 0) {
 // MAIN: Recently Edited (campaign data only)
 // ---------------------------------------------------------------------
 main.createEl("div", { cls: "swn-section-title", text: "Recently Edited" });
-const recent = dv.pages('"Systems" or "Worlds" or "NPCs" or "Ships"')
+const recent = dv.pages('"Sectors" or "Systems" or "Worlds" or "NPCs" or "Ships" or "Vehicles" or "Factions"')
   .sort((p) => p.file.mtime, "desc")
   .limit(8);
 const recentList = main.createEl("div", { cls: "swn-recent-list" });
@@ -214,10 +225,13 @@ side.createEl("div", { cls: "swn-side-title", text: "Quick Links" });
 const quickLinks = side.createEl("div", { cls: "swn-recent-list" });
 for (const [text, path] of [
   ["SWN Compendium Index", "Compendium/SWN Compendium Index.md"],
+  ["Sector Template", "z_templates/Sector Template.md"],
   ["System Template", "z_templates/System Template.md"],
   ["World Template", "z_templates/World Template.md"],
   ["NPC Template", "z_templates/NPC Template.md"],
   ["Ship Template", "z_templates/Ship Template.md"],
+  ["Vehicle Template", "z_templates/Vehicle Template.md"],
+  ["Faction Template", "z_templates/Faction Template.md"],
 ]) {
   const row = quickLinks.createEl("div", { cls: "swn-recent-row" });
   internalLink(row, text, path, "internal-link swn-recent-link");
