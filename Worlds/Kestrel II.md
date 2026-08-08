@@ -2,6 +2,7 @@
 type: world
 name: Kestrel II
 system: "[[Kestrel System]]"
+image: "Images/kestrelII.jpg"
 tags:
   - Trade Hub
   - Civil War
@@ -18,6 +19,8 @@ status: active
 ---
 
 # Kestrel II
+
+![[Images/kestrelII.jpg]]
 
 ## Overview
 

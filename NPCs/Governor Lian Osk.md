@@ -6,6 +6,7 @@ location_type: world
 location: "[[Kestrel II]]"
 faction: "Kestrel Corporate Council"
 statblock: "[[Normal Human]]"
+image: "Images/lianosk.jpg"
 tags:
   - politician
   - council
@@ -13,6 +14,8 @@ status: active
 ---
 
 # Governor Lian Osk
+
+![[Images/lianosk.jpg]]
 
 ## Overview
 

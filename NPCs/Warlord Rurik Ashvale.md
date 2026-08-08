@@ -6,6 +6,7 @@ location_type: world
 location: "[[Kestrel II]]"
 faction: "Ashvale Coalition"
 statblock: "[[Warrior Tyrant]]"
+image: "Images/rurikashvale.jpg"
 tags:
   - warlord
   - coalition
@@ -13,6 +14,8 @@ status: active
 ---
 
 # Warlord Rurik Ashvale
+
+![[Images/rurikashvale.jpg]]
 
 ## Overview
 

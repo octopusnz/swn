@@ -2,6 +2,7 @@
 type: world
 name:
 system:                 # e.g. [[Kestrel System]]
+image:                  # optional path to portrait, e.g. Images/name.jpg
 tags: []                # e.g. Atmosphere, Biosphere, Population, Tech Level tags
 atmosphere:
 biosphere:
@@ -13,6 +14,8 @@ status: active
 ---
 
 # {{title}}
+
+<!-- Once a portrait exists: set `image:` above and add `![[Images/name.jpg]]` here -->
 
 ## Overview
 
