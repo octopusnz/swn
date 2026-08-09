@@ -51,12 +51,14 @@ A neutral merchant guild trying to keep Port Kestrel open to both sides of the K
 ## Leadership & Members
 
 - **Captain (Kestrel Drift)** — Dessa Vray, former Council customs officer who quit rather than pick a side
+- **Captain (Wayward Cairn)** — [[Captain Joss Merrin]], runs the alternate corridor through [[Vesper Hollow]] now that the direct Kestrel run has grown dangerous
 - A loose guild of independent captains and dockworkers displaced by the fighting
 
 ## Territory & Holdings
 
 - Port Kestrel (shared orbital free port)
 - No ground holdings — deliberately avoids planetside entanglement
+- A regular trade circuit through the Anchorage on [[Vesper Hollow]], [[Vesper System]], run by the [[Wayward Cairn]]
 
 ## Relationships & Rivals
 
@@ -67,5 +69,6 @@ A neutral merchant guild trying to keep Port Kestrel open to both sides of the K
 
 - Captain Vray is quietly documenting Council and Coalition war crimes, hoping to hand evidence to an outside authority
 - The Association wants the PCs to escort the [[Kestrel Drift]] through a run the Red Veil Cartel has threatened
+- Captain Merrin has picked up more cross-faction gossip at Vesper Hollow than any single faction there realizes, and hasn't decided who deserves to hear it
 
 ## GM Notes

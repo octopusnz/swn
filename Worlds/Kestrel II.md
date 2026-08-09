@@ -75,6 +75,6 @@ The primary world of the Kestrel System and the reason the system matters at all
 
 - Both factions are quietly trying to recruit outside mercenaries (the PCs) without the other side noticing
 - The Red Veil Cartel's weapons shipments trace back to the pretech cache hinted at on Kestrel III's moons ([[Kestrel System]])
-- Governor Osk has a secret backchannel to the Mandate Remnant Surveyors, hoping to trade access to Mandate ruins for military support
+- Governor Osk has a secret backchannel to the Mandate Remnant Surveyors, hoping to trade access to Mandate ruins for military support.
 
 ## GM Notes

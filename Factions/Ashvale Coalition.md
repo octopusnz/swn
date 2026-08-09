@@ -51,6 +51,7 @@ A breakaway warlord alliance holding the Ashvale highlands of Kestrel II, built 
 ## Leadership & Members
 
 - **Warlord** — [[Warlord Rurik Ashvale]], former Council militia commander
+- **Infiltrator** — [[Corporal Nyssa Thorne]], embedded among Council dockworkers at the Anchorage on [[Vesper Hollow]]
 - A regiment's worth of highland fighters and their families, genuinely convinced they're fighting for Ashvale's survival
 
 ## Territory & Holdings
@@ -58,6 +59,7 @@ A breakaway warlord alliance holding the Ashvale highlands of Kestrel II, built 
 - Ashvale Hold (fortified seat of power, built into a Mandate-era bunker)
 - The Ashvale highlands continent, contested at the edges
 - [[Ashvale's Answer]] — a captured Council gravtank, the Coalition's single most feared asset on the ground
+- No fixed holdings at [[Vesper System]], but a single embedded agent watching the Council's back-channel supply relay there
 
 ## Relationships & Rivals
 
@@ -69,5 +71,6 @@ A breakaway warlord alliance holding the Ashvale highlands of Kestrel II, built 
 - Doesn't know the weapons he's buying trace back to a pretech cache the [[Mandate Remnant Surveyors]] want recovered intact
 - Ashvale would consider a truce if offered a genuinely fair settlement — but no one has offered one yet
 - Ashvale Hold's bunker walls hide old Mandate systems even he hasn't fully explored
+- Corporal Thorne has already identified a Council supply run at Vesper Hollow worth intercepting, but hasn't received orders on whether to act
 
 ## GM Notes

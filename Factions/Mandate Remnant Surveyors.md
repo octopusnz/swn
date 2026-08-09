@@ -41,22 +41,24 @@ A pretech survey and archival organization cataloging Mandate-era ruins and infr
 
 ## Goal
 
-- Expand Influence — get a quiet foothold on Kestrel III's moons to study the pretech cache before either local faction weaponizes it.
+- Expand Influence — get a quiet foothold on Kestrel III's moons to study the pretech cache before either local faction weaponizes it; the Vesper Array investigation has already yielded a working model of what a failing pretech site looks like up close.
 
 ## Assets
 
-- [[Surveyors]] — resource and ruin survey crews, currently cataloging the Kestrel elevator anchors
+- [[Surveyors]] — resource and ruin survey crews, currently cataloging the Kestrel elevator anchors and the failing array in Vesper System
 - [[Informers]] — a thin but watchful network keeping tabs on who's moving what through the system
 
 ## Leadership & Members
 
 - **Archivist** — Archivist Renn Toll, meticulous field agent, captain of the [[Pale Cartographer]]
+- **Field Archivist** — [[Field Archivist Sela Brint]], stationed at [[Vesper's Shroud]] investigating the failing Mandate relay array behind Vesper Reach's instability
 - Researchers and technicians, unarmed but well-connected
 
 ## Territory & Holdings
 
 - No fixed base in-system; operates out of the [[Pale Cartographer]]
 - Maintains archives elsewhere in the sector (old Mandate-era system charts, including data on Kestrel III's moons)
+- An active field investigation at the Vesper Array on [[Vesper's Shroud]], [[Vesper System]]
 
 ## Relationships & Rivals
 
@@ -67,5 +69,7 @@ A pretech survey and archival organization cataloging Mandate-era ruins and infr
 
 - Toll suspects the pretech cache on Kestrel III's moons predates the Mandate entirely, and wants it studied before either warring faction gets hold of it
 - The Surveyors know the Nightshade Vow is their stolen patrol craft and are quietly building a case to reclaim it
+- Brint has confirmed the Vesper Array's decline is the true cause of Vesper Reach's instability, and suspects part of the installation predates the Mandate too — echoing the Kestrel III rumors
+- Some of the array's automated systems have started responding to Brint's survey drones, and not in ways she expected
 
 ## GM Notes

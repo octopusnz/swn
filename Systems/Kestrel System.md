@@ -58,7 +58,7 @@ A busy frontier system on the edge of settled space. Kestrel serves as a natural
 ## Jump Routes
 
 - [[Ashen Gate]] — 6 days
-- [[Vesper Reach]] — 4 days
+- [[Vesper Reach]] — 4 days; leads to [[Vesper System]]
 - [[Red Talon]] — 9 days
 
 ## Factions Present
@@ -69,6 +69,6 @@ A busy frontier system on the edge of settled space. Kestrel serves as a natural
 
 ## Hooks & Secrets
 
-- Pretech cache on one of Kestrel III’s moons
+- Pretech cache on one of Kestrel III's moons
 - Red Veil is smuggling military spike drive components
-- Vesper Reach jump route has become unreliable
+- Vesper Reach's instability has been traced to a failing Mandate relay array in [[Vesper System]] — the route is still open, but getting worse

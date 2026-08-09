@@ -39,7 +39,7 @@ Smugglers exploiting the Kestrel II civil war to move weapons and spike drive co
 
 ## Goal
 
-- Expand Influence — extend the smuggling network into Kestrel III's moons, where the weapons Kael is running actually originate.
+- Expand Influence — extend the smuggling network into Kestrel III's moons, where the weapons Kael is running actually originate; the new Driftfield operation at Vesper System is the first concrete step.
 
 ## Assets
 
@@ -49,11 +49,13 @@ Smugglers exploiting the Kestrel II civil war to move weapons and spike drive co
 ## Leadership & Members
 
 - **Captain** — [[Captain Vashti Kael]], the Cartel's point woman for the Kestrel run, captain of the [[Nightshade Vow]]
+- **Enforcer** — [[Enforcer Dashiell Corr]], runs Red Veil's salvage and smuggling operation out of [[The Driftfield]], captain of the [[Widow's Toll]]
 - Ex-Mandate military washouts loyal to Kael personally rather than the Cartel itself
 
 ## Territory & Holdings
 
 - Operates out of [[The Shattered Belt]], disguised among the mining traffic — no fixed base or headquarters, deliberately kept mobile
+- A forward salvage and smuggling operation in [[The Driftfield]], [[Vesper System]], fencing goods through the Anchorage on [[Vesper Hollow]]
 
 ## Relationships & Rivals
 
@@ -66,5 +68,6 @@ Smugglers exploiting the Kestrel II civil war to move weapons and spike drive co
 - The weapons Kael is running trace back to a pretech cache hidden on one of Kestrel III's moons
 - Kael would defect from the Cartel for the right offer — she has no real loyalty to Red Veil either
 - The Mandate Remnant Surveyors are quietly building a case to reclaim the Nightshade Vow
+- Corr has been quietly pulling salvage from the Driftfield's oldest wreckage without reporting it to Kael — some of it may be pieces of the failing Mandate array the Surveyors are investigating
 
 ## GM Notes

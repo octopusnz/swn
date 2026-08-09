@@ -41,3 +41,9 @@ Two scripts under `scripts/` help generate portrait/scene images for pages via t
 - `scripts/apply_image.py "<page name>" <chosen-file>` — copies the picked candidate into `Images/` and sets it as that page's `image:` property. Doesn't touch git — review and commit it yourself like any other vault edit.
 
 theflat.gen.nz syncs from this vault and picks up new images automatically (resized, recompressed, with a thumbnail generated) — see [`fetch-swn-data.sh`](https://github.com/octopusnz/theflat/blob/main/scripts/fetch-swn-data.sh) in that repo.
+
+`scripts/lint_markdown.py` checks (and can fix) Markdown style issues via [rumdl](https://github.com/rvben/rumdl), a fast Rust-based linter that's fully compatible with the `markdownlint` rule set. Install it with `cargo install rumdl` (or `pip install rumdl` / `brew install rumdl`). It reads the shared `.markdownlint.json` at the vault root — the same config file the [markdownlint VS Code extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) picks up automatically, so inline editor warnings and this script always agree.
+
+- `scripts/lint_markdown.py` — checks the hand-authored campaign content (`Sectors/`, `Systems/`, `Worlds/`, `NPCs/`, `Ships/`, `Vehicles/`, `Factions/`, `z_templates/`)
+- `scripts/lint_markdown.py --fix` — same, but auto-fixes what it can
+- `scripts/lint_markdown.py --all` — also checks the bulk-imported `Compendium/` reference files (add `--fix` to fix those too)

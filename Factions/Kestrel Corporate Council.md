@@ -51,6 +51,7 @@ The nominal planetary government of Kestrel II, based out of New Kestrel City on
 ## Leadership & Members
 
 - **Governor** — [[Governor Lian Osk]], career administrator holding the Council together with concessions and backroom deals
+- **Station-Chief** — [[Warden Petra Voss]], runs a discreet listening post and supply relay at the Anchorage on [[Vesper Hollow]]
 - Council formalwear bureaucracy, increasingly hollowed out by the war effort
 
 ## Territory & Holdings
@@ -58,6 +59,7 @@ The nominal planetary government of Kestrel II, based out of New Kestrel City on
 - New Kestrel City (capital, orbital elevator terminus)
 - Dawnreach (secondary port city, shipbuilding)
 - Nominal claim over all of Meridian continent
+- A small listening post and supply relay at the Anchorage on [[Vesper Hollow]], [[Vesper System]] — a back channel that bypasses Coalition-contested space
 
 ## Relationships & Rivals
 
@@ -70,5 +72,6 @@ The nominal planetary government of Kestrel II, based out of New Kestrel City on
 - Quietly seeking outside mercenaries (the PCs) to break the siege without the Coalition finding out
 - Osk knows more about the pretech cache on Kestrel III's moons than she's told anyone in the Council
 - The Council's Wealth is propping up a Force rating it can no longer really afford — a few more lost assets and the balance could tip
+- Voss's Vesper Hollow supply relay has already been flagged for interception by an Ashvale infiltrator — the Council doesn't know it yet
 
 ## GM Notes
