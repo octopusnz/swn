@@ -3,7 +3,7 @@ type: faction
 name: Ashvale Coalition
 homeworld: "[[Kestrel II]]"
 leader: "[[Warlord Rurik Ashvale]]"
-image:
+image: Images/ashvalecoalition.jpg
 force: 6
 cunning: 2
 wealth: 4
@@ -19,6 +19,8 @@ status: active
 ---
 
 # Ashvale Coalition
+
+![[Images/ashvalecoalition.jpg]]
 
 ## Overview
 

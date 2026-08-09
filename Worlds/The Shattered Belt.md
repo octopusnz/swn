@@ -2,7 +2,7 @@
 type: world
 name: The Shattered Belt
 system: "[[Kestrel System]]"
-image:
+image: Images/theshatteredbelt.jpg
 tags:
   - Asteroid Belt
   - Mining
@@ -18,6 +18,8 @@ status: active
 ---
 
 # The Shattered Belt
+
+![[Images/theshatteredbelt.jpg]]
 
 ## Overview
 

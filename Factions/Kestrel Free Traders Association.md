@@ -3,7 +3,7 @@ type: faction
 name: Kestrel Free Traders Association
 homeworld: "[[Kestrel II]]"
 leader: Dessa Vray
-image:
+image: Images/kestrelfreetradersassociation.jpg
 force: 1
 cunning: 3
 wealth: 4
@@ -19,6 +19,8 @@ status: active
 ---
 
 # Kestrel Free Traders Association
+
+![[Images/kestrelfreetradersassociation.jpg]]
 
 ## Overview
 

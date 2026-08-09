@@ -2,7 +2,7 @@
 type: world
 name: Kestrel III
 system: "[[Kestrel System]]"
-image:
+image: Images/kestreliii.jpg
 tags:
   - Gas Giant
   - Pretech Ruins
@@ -17,6 +17,8 @@ status: active
 ---
 
 # Kestrel III
+
+![[Images/kestreliii.jpg]]
 
 ## Overview
 
