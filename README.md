@@ -32,3 +32,12 @@ This vault's UI is built on the following third-party Obsidian plugins and theme
 | ITS Theme | SlRvb | GPL-2.0 | <https://github.com/SlRvb/Obsidian--ITS-Theme> | [LICENSE](.obsidian/themes/ITS%20Theme/LICENSE) |
 
 Note on Fantasy Statblocks: the NPC/Creature/Robot entries in this vault use a custom "SWN Creature Layout" (in `.obsidian/plugins/obsidian-5e-statblocks/data.json`) written specifically for this vault's stat fields — it is not part of the upstream plugin.
+
+## Tooling
+
+Two scripts under `scripts/` help generate portrait/scene images for pages via the [xAI Grok Imagine API](https://docs.x.ai/developers/model-capabilities/images/generation) — a separate developer account/key from the consumer Grok Imagine app, get one at <https://console.x.ai>. Both require `pip install pyyaml`.
+
+- `scripts/generate_image.py "<page name>"` — drafts a prompt from that page's own frontmatter/body (or pass `--prompt` for your own), requests a batch of candidates, and writes them to a local `.image-candidates/` contact sheet for review. Needs `XAI_API_KEY` (env var, or a `.env` file at the vault root). `--dry-run` shows the prompt without calling the API.
+- `scripts/apply_image.py "<page name>" <chosen-file>` — copies the picked candidate into `Images/` and sets it as that page's `image:` property. Doesn't touch git — review and commit it yourself like any other vault edit.
+
+theflat.gen.nz syncs from this vault and picks up new images automatically (resized, recompressed, with a thumbnail generated) — see [`fetch-swn-data.sh`](https://github.com/octopusnz/theflat/blob/main/scripts/fetch-swn-data.sh) in that repo.

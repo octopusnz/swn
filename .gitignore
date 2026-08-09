@@ -3,3 +3,13 @@
 .obsidian/cache
 .obsidian/*.log
 Untitled*.canvas
+
+# scripts/generate_image.py output — review locally, never committed
+.image-candidates/
+
+# holds XAI_API_KEY for scripts/generate_image.py — never committed
+.env
+
+# Python
+__pycache__/
+*.pyc
