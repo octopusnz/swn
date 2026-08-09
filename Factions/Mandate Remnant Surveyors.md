@@ -3,7 +3,7 @@ type: faction
 name: Mandate Remnant Surveyors
 homeworld:
 leader: Archivist Renn Toll
-image:
+image: Images/mandateremnantsurveyors.jpg
 force: 1
 cunning: 4
 wealth: 3
@@ -19,6 +19,8 @@ status: active
 ---
 
 # Mandate Remnant Surveyors
+
+![[Images/mandateremnantsurveyors.jpg]]
 
 ## Overview
 

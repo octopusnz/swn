@@ -3,7 +3,7 @@ type: faction
 name: Kestrel Corporate Council
 homeworld: "[[Kestrel II]]"
 leader: "[[Governor Lian Osk]]"
-image:
+image: Images/kestrelcorporatecouncil.png
 force: 5
 cunning: 3
 wealth: 6
@@ -19,6 +19,8 @@ status: active
 ---
 
 # Kestrel Corporate Council
+
+![[Images/kestrelcorporatecouncil.png]]
 
 ## Overview
 

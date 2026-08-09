@@ -28,6 +28,13 @@ from _vault_pages import FRONTMATTER_RE, find_page, vault_root
 # a `tags:` line). `.*` alone already covers same-line whitespace/content.
 IMAGE_LINE_RE = re.compile(r"^image:.*$", re.MULTILINE)
 
+# The frontmatter `image:` field alone is only consumed by the external
+# site's sync — Obsidian itself doesn't render arbitrary frontmatter as
+# an image (no banner-style plugin in this vault). Every existing page
+# with a visible image also has this embed right under its H1 heading.
+IMAGE_EMBED_RE = re.compile(r"^!\[\[Images/[^\]]+\]\]$", re.MULTILINE)
+HEADING_RE = re.compile(r"^# .+$", re.MULTILINE)
+
 
 def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", name.lower())
@@ -64,6 +71,30 @@ def set_image_field(md_text: str, image_rel_path: str) -> str:
     return md_text[:m.start(1)] + new_fm + md_text[m.end(1):]
 
 
+def set_image_embed(md_text: str, image_rel_path: str) -> str:
+    """Insert (or update, on re-run) the `![[Images/...]]` embed that
+    Obsidian actually renders, placing it right under the page's H1
+    heading to match every other illustrated page in the vault."""
+    m = FRONTMATTER_RE.match(md_text)
+    body_start = m.end() if m else 0
+    body = md_text[body_start:]
+
+    embed = f"![[{image_rel_path}]]"
+    existing = IMAGE_EMBED_RE.search(body)
+    if existing:
+        new_body = body[:existing.start()] + embed + body[existing.end():]
+        return md_text[:body_start] + new_body
+
+    heading = HEADING_RE.search(body)
+    if not heading:
+        return md_text
+    new_body = (
+        body[:heading.end()] + f"\n\n{embed}\n\n"
+        + body[heading.end():].lstrip("\n")
+    )
+    return md_text[:body_start] + new_body
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("page", help="Page name (matches frontmatter `name:`, falling back to the filename)")
@@ -88,10 +119,17 @@ def main():
     shutil.copyfile(chosen, dest)
 
     md_text, newline = read_preserving_newline(md_path)
-    write_preserving_newline(md_path, set_image_field(md_text, f"Images/{filename}"), newline)
+    md_text = set_image_field(md_text, f"Images/{filename}")
+    md_text = set_image_embed(md_text, f"Images/{filename}")
+    write_preserving_newline(md_path, md_text, newline)
 
     print(f"Wrote Images/{filename}")
     print(f"Updated image: field in {rel}")
+    if f"![[Images/{filename}]]" in md_text:
+        print(f"Updated ![[Images/{filename}]] embed under the H1 heading")
+    else:
+        print(f"warning: no H1 heading found in {rel} — image embed not inserted, "
+              f"it won't be visible in Obsidian until you add ![[Images/{filename}]] yourself")
     print("\nNothing committed — review with `git status` / `git diff` and commit when you're happy.")
 
 
